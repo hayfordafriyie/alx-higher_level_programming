@@ -1,5 +1,7 @@
 #!/usr/bin/python3
+
 if __name__ == "__main__":
-    """ brings the variable a from the file and prints its value."""
-    import variable_load_5
-    print("{}".format(variable_load_5.a))
+    """Print the value of variable a from variable_load_5."""
+    from variable_load_5 import a
+
+    print(a)
